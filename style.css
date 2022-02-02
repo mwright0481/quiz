@@ -1,0 +1,82 @@
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+}
+body {
+	background-image: url("https://imgprd19.hobbylobby.com/0/52/a3/052a3aae4657c96d4fa3e29efc31fd12bf80c930/1400Wx1400H-955252-a-1018.jpg"), url("paper.gif");
+	background-color: #cccccc;
+  }
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 30vw;
+	height: 10vh;
+	background-color: #5f4e4e;
+	font-size: x-large;
+	
+	text-align: center;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color opacity: 0;
+		
+}
+.option{	
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: rgb(24, 199, 33);
+	border-radius: 25%;
+}
+.option:hover{
+	background-color: rgb(248, 248, 17);
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color opacity: 0;;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+	
+	background-color: #060af7;
+}
+.next{
+	color: white;
+	background-color: #fd1d09;
+}

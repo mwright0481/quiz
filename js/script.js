@@ -3,8 +3,8 @@ const Questions = [{
     id: 0,
     q: "What is color are the green bay packers?",
     a: [{ text: "red and yellow", isCorrect: false },
-        { text: "green and gold", isCorrect: false },
-        { text: "blue and silver", isCorrect: true },
+        { text: "green and gold", isCorrect: true },
+        { text: "blue and silver", isCorrect: false},
         { text: "black and yellow", isCorrect: false }
     ]
 
@@ -12,7 +12,7 @@ const Questions = [{
 {
     id: 1,
     q: "Who is the quarterback for green bay?",
-    a: [{ text: "rodgers", isCorrect: false, isSelected: false },
+    a: [{ text: "rodgers", isCorrect: true, isSelected: true },
         { text: "tannehill", isCorrect: false },
         { text: "brady", isCorrect: false },
         { text: "aikmen", isCorrect: true }
